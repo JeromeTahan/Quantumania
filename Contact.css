@@ -279,7 +279,7 @@ body {
         font-family: Outfit;
         margin-right: 30px;
         font-weight: 500;
-        color: white;
+        color: rgb(58, 28, 120);
         transition: color .3s;
     }
     .contactus-header-button:hover {
