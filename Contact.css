@@ -95,9 +95,8 @@ body {
 }
 
 
-
 .contact-title {
-    width: 50%;
+    width: 70%;
     margin: auto;
     display: block;
 }
@@ -110,65 +109,296 @@ body {
 .info-container {
     width: 80%;
     margin: auto;
-    display: block;
     padding: 35px;
     background-color: rgb(58, 28, 120);
     border-radius: 20px;
 }
 .icon {
     width: 18%;
-    margin: auto;
-    display: block;
+    margin-bottom: 1%;
+    margin-left: 11%;
+}
+
+.text {
+    position: relative;
 }
 .description-loc {
     color: white;
     font-size: 20px;
     font-family: Outfit;
-    display: -webkit-inline-box;
-    margin-left: 70px;
+    position: absolute;
+    top: 390px;
+    left: 280px;
 }
 .description-num {
     color: white;
     font-size: 20px;
     font-family: Outfit;
-    display: -webkit-inline-box;
-    margin-left: 200px;
+    position: absolute;
+    top: 390px;
+    left: 685px;
 }
 .description-mail {
     color: white;
     font-size: 20px;
     font-family: Outfit;
-    display: -webkit-inline-box;
-    margin-left: 190px;
+    position: absolute;
+    top: 390px;
+    left: 970px;
 }
 .block {
     display: block;
 }
-.text {
-position: absolute;
-display: block;
-margin: auto;
-}
-
 .location {
-    display: -webkit-inline-box;
-}
-.number {
-    display: -webkit-inline-box;
+    display: block;
+    margin: auto;
 }
 
-.email {
-    display: -webkit-inline-box;
-}
 
 .tagline {
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: block;
-    margin-top: 90px;
+    margin-top: 70px;
     text-align: center;
 }
 .line {
     color: white;
     font-family: Outfit;
+}
+
+
+.space-footer {
+    margin-top: 130px;
+    display: block;
+}
+.footer {
+    background-color: black;
+    margin: none;
+    position: relative;
+}
+
+.copyright {
+    font-size: 15px;
+    color: white;
+    font-family: Outfit;
+    position: absolute;
+    bottom: 0;
+}
+
+.violet-footer {
+    color: white;
+    font-weight: bolder;
+    
+}
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-image: url(Background.png);
+        background-size: 320%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .header {
+        display: block;
+    }
+    
+    .left-side-header {
+        width: 100%;
+        float: left;
+    }
+    
+    .image-header {
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+    .image-header:hover {
+        cursor: pointer;
+    }
+    
+    .space-header {
+        margin-top: 250px;
+        display: -webkit-inline-box;
+    }
+    .right-side-header {
+        float:none;
+        margin-left: 12%;
+        margin-top: 5%;
+    }
+    .right-side-header:hover {
+        cursor: pointer;
+    }
+    
+    .home-header-button {
+        font-size: 36px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .home-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .about-header-button {
+        font-size: 36px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .about-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+
+    .ourteam-header-button {
+        font-size: 36px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .ourteam-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .contactus-header-button {
+        font-size: 36px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .contactus-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+
+    .space {
+        margin-top: 100px;
+        display: -webkit-inline-box;
+    }
+
+
+
+
+
+
+    .contact-title {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    .contact {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    
+    .info-container {
+        width: 80%;
+        margin: auto;
+        padding: 35px;
+        background-color: rgb(58, 28, 120);
+        border-radius: 20px;
+    }
+    .icon {
+        width: 38%;
+        margin-bottom: 10%;
+        display: block;
+        margin-left: 32%;
+    }
+
+    .text {
+        position: relative;
+    }
+    .description-loc {
+        color: white;
+        font-size: 30px;
+        font-family: Outfit;
+        position: absolute;
+        top: 730px;
+        left: 310px;
+    }
+    .description-num {
+        color: white;
+        font-size: 30px;
+        font-family: Outfit;
+        position: absolute;
+        top: 975px;
+        left: 390px;
+    }
+    .description-mail {
+        color: white;
+        font-size: 30px;
+        font-family: Outfit;
+        position: absolute;
+        top: 1210px;
+        left: 270px;
+    }
+    .block {
+        display: block;
+    }
+    .location {
+        display: block;
+    }
+    .number {
+        display: block;
+    }
+    
+    .email {
+        display: block;
+    }
+    
+    
+    
+    .tagline {
+        width: 60%;
+        margin: auto;
+        display: block;
+        margin-top: 90px;
+        text-align: center;
+    }
+    .line {
+        color: white;
+        font-family: Outfit;
+    }
+
+    .space-footer {
+        margin-top: 270px;
+        display: block;
+    }
+    .footer {
+        background-color: black;
+        margin: none;
+        position: relative;
+    }
+    
+    .copyright {
+        font-size: 15px;
+        color: white;
+        font-family: Outfit;
+        position: absolute;
+        bottom: 0;
+        margin-left: 21%;
+    }
+    
+    .violet-footer {
+        color: white;
+        font-weight: bolder;
+        
+    }
 }
