@@ -191,3 +191,253 @@ body {
     width: 50%;
     margin-left: 0%;
 }
+
+
+.back-button {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    width: 210px;
+    height: 40px;
+    font-family: Outfit;
+    color: white;
+    background-color: black;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-top: .5%;
+    transition: color .3s;
+}
+.back-button:hover {
+    color: rgb(100, 61, 200);
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-image: url(LaptopBGG.png);
+        background-size: 330%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .header {
+        display: block;
+    }
+    
+    .left-side-header {
+        width: 100%;
+        float: left;
+    }
+    
+    .image-header {
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+    .image-header:hover {
+        cursor: pointer;
+    }
+    
+    .space-header {
+        margin-top: 0px;
+        display: -webkit-inline-box;
+    }
+    .right-side-header {
+        float:none;
+        margin-left: 12%;
+        margin-top: 5%;
+    }
+    .right-side-header:hover {
+        cursor: pointer;
+    }
+    
+    .home-header-button {
+        font-size: 13px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .home-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .about-header-button {
+        font-size: 13px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .about-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+
+    .ourteam-header-button {
+        font-size: 13px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .ourteam-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .contactus-header-button {
+        font-size: 13px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .contactus-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+
+
+
+
+    .laptop-one {
+        display: block;
+        margin: auto;
+    }
+    
+    .img {
+        width: 100%;
+        margin-top: 5%;
+        
+    }
+    .laptop-text {
+        display: block;
+        margin: auto;
+        padding: 0px;
+    }
+    .title-text-1 {
+        color: white;
+        font-family: Outfit;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+        
+    }
+    .title-text-2 {
+        color: white;
+        font-family: Outfit;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .description-text {
+        color: white;
+        font-family: Outfit;
+        margin-top: 25px;
+        font-size: 45px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .price-text {
+        color: rgb(100, 61, 200);
+        font-family: Outfit;
+        font-size: 70px;
+        font-weight: bold;
+        background-color: white;
+        height: 105px;
+        width: fit-content;
+        margin-left: 20px;
+        border-radius: 53px;
+        border-color: white;
+    
+    }
+    .specs {
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-left: 12%;
+    }
+    .column {
+        width: 45%;
+        height: fit-content;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .laptop-img-1 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-2 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-3 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-4 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-5 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-6 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-7 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-8 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-9 {
+        width: 100%;
+        margin: auto;
+    }
+    .laptop-img-10 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .back-button {
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        width: 210px;
+        height: 40px;
+        font-family: Outfit;
+        color: white;
+        background-color: black;
+        border: solid;
+        border-color: white;
+        border-width: 2px;
+        margin-top: .5%;
+        transition: color .3s;
+    }
+    .back-button:hover {
+        color: rgb(100, 61, 200);
+        cursor: pointer;
+    }
+}
