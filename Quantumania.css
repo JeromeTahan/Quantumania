@@ -165,7 +165,7 @@ body {
 }
 
 .space {
-    margin-top: 250px;
+    margin-top: 190px;
     display: block;
 }
 .footer {
@@ -202,22 +202,26 @@ body {
     }
     
     .left-side-header {
-        width: 40%;
-        margin-top: 3%;
-        margin-left: 2%;
+        width: 100%;
         float: left;
     }
     
     .image-header {
-        width: 100%;
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 10%;
     }
     .image-header:hover {
         cursor: pointer;
     }
     
+    .space-header {
+        margin-top: 250px;
+        display: -webkit-inline-box;
+    }
     .right-side-header {
-        float: right;
-        margin-right: 1%;
+        float:none;
+        margin-left: 12%;
         margin-top: 5%;
     }
     .right-side-header:hover {
@@ -225,9 +229,9 @@ body {
     }
     
     .home-header-button {
-        font-size: 32px;
+        font-size: 36px;
         font-family: Outfit;
-        margin-right: 20px;
+        margin-right: 30px;
         font-weight: 500;
         color: white;
         transition: color .3s;
@@ -238,9 +242,9 @@ body {
     }
     
     .about-header-button {
-        font-size: 32px;
+        font-size: 36px;
         font-family: Outfit;
-        margin-right: 20px;
+        margin-right: 30px;
         font-weight: 500;
         color: white;
         transition: color .3s;
@@ -250,11 +254,25 @@ body {
         cursor: pointer;
         color: rgb(58, 28, 120);
     }
+
+    .ourteam-header-button {
+        font-size: 36px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .ourteam-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
     
     .contactus-header-button {
-        font-size: 32px;
+        font-size: 36px;
         font-family: Outfit;
-        margin-right: 20px;
+        margin-right: 30px;
         font-weight: 500;
         color: white;
         transition: color .3s;
@@ -272,15 +290,15 @@ body {
     
     .title-name {
         width: 90%;
-        margin-top: 50%;
+        margin-top: 35%;
     }
     
     .it-students {
-        height: 50px;
+        height: 70px;
         width: fit-content;
-        font-size: 30px;
+        font-size: 40px;
         font-family: Outfit;
-        border-radius: 25px;
+        border-radius: 35px;
         display: block;
         margin: auto;
         margin-top: 5%;
@@ -299,11 +317,11 @@ body {
     }
     
     .gaming-laptops {
-        height: 50px;
+        height: 70px;
         width: fit-content;
-        font-size: 30px;
+        font-size: 40px;
         font-family: Outfit;
-        border-radius: 24px;
+        border-radius: 35px;
         display: block;
         margin: auto;
         margin-top: 3%;
@@ -321,11 +339,11 @@ body {
     }
     
     .content-creator {
-        height: 50px;
+        height: 70px;
         width: fit-content;
-        font-size: 30px;
+        font-size: 40px;
         font-family: Outfit;
-        border-radius: 24px;
+        border-radius: 35px;
         display: block;
         margin: auto;
         margin-top: 3%;
@@ -343,7 +361,7 @@ body {
     }
     
     .space {
-        margin-top: 750px;
+        margin-top: 600px;
         display: block;
     }
     .footer {
@@ -358,6 +376,7 @@ body {
         font-family: Outfit;
         position: absolute;
         bottom: 0;
+        margin-left: 21%;
     }
     
     .violet-footer {
