@@ -1,0 +1,174 @@
+body {
+    background-image: url(Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: block;
+}
+
+.left-side-header {
+    width: 40%;
+    margin-top: .5%;
+    margin-left: 1%;
+    float: left;
+}
+
+.image-header {
+    width: 45%;
+}
+.image-header:hover {
+    cursor: pointer;
+}
+
+.right-side-header {
+    float: right;
+    margin-right: 50px;
+    margin-top: 2%;
+}
+.right-side-header:hover {
+    cursor: pointer;
+}
+
+.home-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.home-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.about-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.about-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.ourteam-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.ourteam-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.contactus-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: rgb(58, 28, 120);
+    transition: color .3s;
+    text-decoration: none;
+}
+.contactus-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+
+
+.space {
+    margin-top: 100px;
+    display: -webkit-inline-box;
+}
+
+
+
+.contact-title {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.contact {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.info-container {
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 35px;
+    background-color: rgb(58, 28, 120);
+    border-radius: 20px;
+}
+.icon {
+    width: 18%;
+    margin: auto;
+    display: block;
+}
+.description-loc {
+    color: white;
+    font-size: 20px;
+    font-family: Outfit;
+    display: -webkit-inline-box;
+    margin-left: 70px;
+}
+.description-num {
+    color: white;
+    font-size: 20px;
+    font-family: Outfit;
+    display: -webkit-inline-box;
+    margin-left: 200px;
+}
+.description-mail {
+    color: white;
+    font-size: 20px;
+    font-family: Outfit;
+    display: -webkit-inline-box;
+    margin-left: 190px;
+}
+.block {
+    display: block;
+}
+.text {
+position: absolute;
+display: block;
+margin: auto;
+}
+
+.location {
+    display: -webkit-inline-box;
+}
+.number {
+    display: -webkit-inline-box;
+}
+
+.email {
+    display: -webkit-inline-box;
+}
+
+.tagline {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 90px;
+    text-align: center;
+}
+.line {
+    color: white;
+    font-family: Outfit;
+}

@@ -1,0 +1,286 @@
+body {
+    background-image: url(Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.header {
+    display: block;
+}
+
+.left-side-header {
+    width: 40%;
+    margin-top: .5%;
+    margin-left: 1%;
+    float: left;
+    
+}
+
+.image-header {
+    width: 45%;
+    
+}
+.image-header:hover {
+    cursor: pointer;
+}
+
+.right-side-header {
+    float: right;
+    margin-right: 50px;
+    margin-top: 2%;
+}
+.right-side-header:hover {
+    cursor: pointer;
+}
+
+.home-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.home-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.about-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: rgb(58, 28, 120);
+    transition: color .3s;
+    text-decoration: none;
+}
+.about-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.ourteam-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.ourteam-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.contactus-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.contactus-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.text-photo {
+    display: -webkit-inline-box;
+
+}
+
+.text {
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-top: 4%;
+    background-color: rgb(58, 28, 120);
+    padding: 2%;
+    border-radius: 40px;
+}
+
+.title {
+    color: white;
+    font-family: Outfit;
+    margin-bottom: 7%;
+    
+}
+
+.description {
+    color: white;
+    font-family: Outfit;
+    font-size: 18px;
+}
+
+.photo {
+    vertical-align: middle;
+    margin-top: 2.4%;
+    width: 53.5%;
+}
+
+.group-photo {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.copyright {
+    font-size: 15px;
+    color: white;
+    font-family: Outfit;
+    position: absolute;
+    bottom: 0;
+}
+
+.violet-footer {
+    color: white;
+    font-weight: bolder;
+    
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-image: url(Background.png);
+        background-size: 320%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+    
+    .header {
+        display: -webkit-inline-box;
+    }
+    
+    .left-side-header {
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 2%;
+        float: left;
+    }
+    
+    .image-header {
+        width: 100%;
+    }
+    .image-header:hover {
+        cursor: pointer;
+    }
+    
+    .right-side-header {
+        float: right;
+        margin-right: 1%;
+        margin-top: 5%;
+        margin-left: 8%;
+    }
+    .right-side-header:hover {
+        cursor: pointer;
+    }
+    
+    .home-header-button {
+        font-size: 32px;
+        font-family: Outfit;
+        margin-right: 20px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .home-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .about-header-button {
+        font-size: 32px;
+        font-family: Outfit;
+        margin-right: 20px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .about-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .contactus-header-button {
+        font-size: 32px;
+        font-family: Outfit;
+        margin-right: 20px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .contactus-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+
+    .space {
+        margin-top: 300px;
+    }
+    
+    .text-photo {
+        display: block;
+        text-align: center;
+        margin: auto;
+        
+    
+    }
+    
+    .text {
+        width: 75%;
+        margin: auto;
+        background-color: rgb(58, 28, 120);
+        padding: 2%;
+        border-radius: 40px;
+        display: block;
+
+    }
+    
+    .title {
+        color: white;
+        font-family: Outfit;
+        margin-bottom: 7%;
+        font-size: 36px;
+        
+    }
+    
+    .description {
+        color: white;
+        font-family: Outfit;
+        font-size: 28px;
+        
+    }
+    
+    .photo {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    
+    .group-photo {
+        width: 100%;
+        vertical-align: middle;
+        margin: auto;
+    }
+    
+    .copyright {
+        font-size: 15px;
+        color: white;
+        font-family: Outfit;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .violet-footer {
+        color: white;
+        font-weight: bolder;
+        
+    }
+}

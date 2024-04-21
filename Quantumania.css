@@ -1,0 +1,369 @@
+body {
+    background-image: url(Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: block;
+}
+
+.left-side-header {
+    width: 40%;
+    margin-top: .5%;
+    margin-left: 1%;
+    float: left;
+}
+
+.image-header {
+    width: 45%;
+}
+.image-header:hover {
+    cursor: pointer;
+}
+
+.right-side-header {
+    float: right;
+    margin-right: 50px;
+    margin-top: 2%;
+}
+.right-side-header:hover {
+    cursor: pointer;
+}
+
+.home-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: rgb(58, 28, 120);
+    transition: color .3s;
+    text-decoration: none;
+}
+.home-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.about-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.about-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.ourteam-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.ourteam-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+.contactus-header-button {
+    font-size: 17px;
+    font-family: Outfit;
+    margin-right: 70px;
+    font-weight: 500;
+    color: white;
+    transition: color .3s;
+    text-decoration: none;
+}
+.contactus-header-button:hover {
+    cursor: pointer;
+    color: rgb(58, 28, 120);
+}
+
+
+.title {
+    text-align: center;
+    
+}
+
+.title-name {
+    width: 80%;
+    margin-top: 10%;
+}
+
+.it-students {
+    height: 40px;
+    width: 320px;
+    font-size: 17px;
+    font-family: Outfit;
+    border-radius: 24px;
+    display: block;
+    margin: auto;
+    font-weight: 550;
+    border: none;
+    transition: all .3s;
+    
+}
+.it-students:hover {
+    background-color: rgb(58, 28, 120);
+    color: white;
+    border-color: white;
+    border: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.gaming-laptops {
+    height: 40px;
+    width: 245px;
+    font-size: 17px;
+    font-family: Outfit;
+    border-radius: 24px;
+    display: block;
+    margin: auto;
+    margin-top: .5%;
+    font-weight: 550;
+    border: none;
+    transition: all .3s;
+}
+.gaming-laptops:hover {
+    background-color: rgb(58, 28, 120);
+    color: white;
+    border-color: white;
+    border: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.content-creator {
+    height: 40px;
+    width: 370px;
+    font-size: 17px;
+    font-family: Outfit;
+    border-radius: 24px;
+    display: block;
+    margin: auto;
+    margin-top: .5%;
+    font-weight: 550;
+    border: none;
+    transition: all .3s;
+}
+.content-creator:hover {
+    background-color: rgb(58, 28, 120);
+    color: white;
+    border-color: white;
+    border: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.space {
+    margin-top: 250px;
+    display: block;
+}
+.footer {
+    background-color: black;
+    margin: none;
+    position: relative;
+}
+
+.copyright {
+    font-size: 15px;
+    color: white;
+    font-family: Outfit;
+    position: absolute;
+    bottom: 0;
+}
+
+.violet-footer {
+    color: white;
+    font-weight: bolder;
+    
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-image: url(Background.png);
+        background-size: 320%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .header {
+        display: block;
+    }
+    
+    .left-side-header {
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 2%;
+        float: left;
+    }
+    
+    .image-header {
+        width: 100%;
+    }
+    .image-header:hover {
+        cursor: pointer;
+    }
+    
+    .right-side-header {
+        float: right;
+        margin-right: 1%;
+        margin-top: 5%;
+    }
+    .right-side-header:hover {
+        cursor: pointer;
+    }
+    
+    .home-header-button {
+        font-size: 32px;
+        font-family: Outfit;
+        margin-right: 20px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .home-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .about-header-button {
+        font-size: 32px;
+        font-family: Outfit;
+        margin-right: 20px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .about-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    .contactus-header-button {
+        font-size: 32px;
+        font-family: Outfit;
+        margin-right: 20px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+    }
+    .contactus-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
+    
+    
+    .title {
+        text-align: center;
+        
+    }
+    
+    .title-name {
+        width: 90%;
+        margin-top: 50%;
+    }
+    
+    .it-students {
+        height: 50px;
+        width: fit-content;
+        font-size: 30px;
+        font-family: Outfit;
+        border-radius: 25px;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+        font-weight: 550;
+        border: none;
+        transition: all .3s;
+        
+    }
+    .it-students:hover {
+        background-color: rgb(58, 28, 120);
+        color: white;
+        border-color: white;
+        border: solid;
+        border-width: 2px;
+        cursor: pointer;
+    }
+    
+    .gaming-laptops {
+        height: 50px;
+        width: fit-content;
+        font-size: 30px;
+        font-family: Outfit;
+        border-radius: 24px;
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+        font-weight: 550;
+        border: none;
+        transition: all .3s;
+    }
+    .gaming-laptops:hover {
+        background-color: rgb(58, 28, 120);
+        color: white;
+        border-color: white;
+        border: solid;
+        border-width: 2px;
+        cursor: pointer;
+    }
+    
+    .content-creator {
+        height: 50px;
+        width: fit-content;
+        font-size: 30px;
+        font-family: Outfit;
+        border-radius: 24px;
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+        font-weight: 550;
+        border: none;
+        transition: all .3s;
+    }
+    .content-creator:hover {
+        background-color: rgb(58, 28, 120);
+        color: white;
+        border-color: white;
+        border: solid;
+        border-width: 2px;
+        cursor: pointer;
+    }
+    
+    .space {
+        margin-top: 750px;
+        display: block;
+    }
+    .footer {
+        background-color: black;
+        margin: none;
+        position: relative;
+    }
+    
+    .copyright {
+        font-size: 15px;
+        color: white;
+        font-family: Outfit;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .violet-footer {
+        color: white;
+        font-weight: bolder;
+        
+    }
+
+}
