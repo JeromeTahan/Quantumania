@@ -150,41 +150,43 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        
     }
     
     .header {
-        display: -webkit-inline-box;
+        display: block;
     }
     
     .left-side-header {
-        width: 40%;
-        margin-top: 3%;
-        margin-left: 2%;
+        width: 100%;
         float: left;
     }
     
     .image-header {
-        width: 100%;
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 10%;
     }
     .image-header:hover {
         cursor: pointer;
     }
     
+    .space-header {
+        margin-top: 250px;
+        display: -webkit-inline-box;
+    }
     .right-side-header {
-        float: right;
-        margin-right: 1%;
+        float:none;
+        margin-left: 12%;
         margin-top: 5%;
-        margin-left: 8%;
     }
     .right-side-header:hover {
         cursor: pointer;
     }
     
     .home-header-button {
-        font-size: 32px;
+        font-size: 36px;
         font-family: Outfit;
-        margin-right: 20px;
+        margin-right: 30px;
         font-weight: 500;
         color: white;
         transition: color .3s;
@@ -195,9 +197,9 @@ body {
     }
     
     .about-header-button {
-        font-size: 32px;
+        font-size: 36px;
         font-family: Outfit;
-        margin-right: 20px;
+        margin-right: 30px;
         font-weight: 500;
         color: white;
         transition: color .3s;
@@ -207,11 +209,25 @@ body {
         cursor: pointer;
         color: rgb(58, 28, 120);
     }
+
+    .ourteam-header-button {
+        font-size: 36px;
+        font-family: Outfit;
+        margin-right: 30px;
+        font-weight: 500;
+        color: white;
+        transition: color .3s;
+        text-decoration: none;
+    }
+    .ourteam-header-button:hover {
+        cursor: pointer;
+        color: rgb(58, 28, 120);
+    }
     
     .contactus-header-button {
-        font-size: 32px;
+        font-size: 36px;
         font-family: Outfit;
-        margin-right: 20px;
+        margin-right: 30px;
         font-weight: 500;
         color: white;
         transition: color .3s;
@@ -222,7 +238,7 @@ body {
     }
 
     .space {
-        margin-top: 300px;
+        margin-top: 150px;
     }
     
     .text-photo {
@@ -262,6 +278,7 @@ body {
         width: 80%;
         margin: auto;
         display: block;
+        margin-top: 5%;
     }
     
     .group-photo {
@@ -270,12 +287,23 @@ body {
         margin: auto;
     }
     
+    .space-footer {
+        margin-top: 50px;
+        display: block;
+    }
+    .footer {
+        background-color: black;
+        margin: none;
+        position: relative;
+    }
+    
     .copyright {
         font-size: 15px;
         color: white;
         font-family: Outfit;
         position: absolute;
         bottom: 0;
+        margin-left: 21%;
     }
     
     .violet-footer {
@@ -283,4 +311,5 @@ body {
         font-weight: bolder;
         
     }
+
 }
